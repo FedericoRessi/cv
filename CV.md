@@ -1,3 +1,5 @@
+[View this file on GitHub (latest)](https://github.com/FedericoRessi/cv/blob/main/CV.md)
+
 # Federico Ressi
 
 **Location:** Alicante, Spain (Remote) · **Nationality:** Italian · **Date of birth:** 24 February 1979  
