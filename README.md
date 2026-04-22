@@ -1,4 +1,4 @@
-# CV — Federico Ressi
+# CV - Federico Ressi
 
 [View this file on GitHub (latest)](https://github.com/FedericoRessi/cv/blob/main/README.md)
 
