@@ -1,0 +1,205 @@
+# Curriculum Vitae: Federico Ressi
+# Last updated: April 2026
+
+personal_info:
+  first_name: Federico
+  last_name: Ressi
+  location: Alicante, Spain (Remote)
+  nationality: Italian
+  email: federico.ressi@gmail.com
+  phone: "+34 668 591 070"
+  birth_date: 1979-02-24
+  links:
+    linkedin: https://www.linkedin.com/in/federico-ressi
+    github_main: https://github.com/FedericoRessi
+    github_elastic: https://github.com/fressi-elastic
+  languages:
+    - language: Italian
+      proficiency: Native
+    - language: English
+      proficiency: Professional
+    - language: Spanish
+      proficiency: Professional
+
+professional_summary: |
+  Senior Software Engineer and Architect with over 20 years of experience across the full SDLC, 
+  including core development, system architecture, SRE, and DevOps. Proven track record in 
+  designing complex distributed systems from scratch and refactoring legacy architectures 
+  for high scalability. Expert at bridging the gap between low-level system performance 
+  and high-level architectural design. Known for innovative problem-solving, technical 
+  mentorship, and a commitment to end-to-end product quality.
+
+technical_skills:
+  programming_languages:
+    - { name: Python, years: 10, focus: "Backend, Scientific, Automation" }
+    - { name: Go, years: 2, focus: "Microservices, SRE" }
+    - { name: C/C++, years: 6, focus: "Embedded, 3D, Performance" }
+    - { name: Bash, years: 4, focus: "Automation, Linux Admin" }
+    - { name: Java, years: 1 }
+  architecture_backend:
+    - Distributed Microservices
+    - REST, gRPC, JSON, Protobuf
+    - Networking (SDN, VXLAN, TCP/IP, Sockets, Load Balancing)
+    - Database Systems (SQL, Spanner)
+  infrastructure_devops:
+    - Kubernetes (K8s)
+    - Containers (Docker, Podman)
+    - Virtualization (OpenStack, KVM, Ironic, Libvirt, Vagrant)
+    - Cloud Platforms (GCP, AWS S3)
+    - CI/CD (Ansible, Jenkins, Make, Gerrit, GitHub Actions)
+  specialized:
+    - Scientific Computing (NumPy, SciPy, OpenGL)
+    - Linux Systems (RHEL, Ubuntu/Debian)
+    - Methodology (Agile, Scrum, Kanban, Test-Driven Development)
+
+experience:
+  - company: Elastic
+    role: Senior Software Engineer (Python Performance Testing)
+    location: Spain (Remote)
+    period: January 2025 - Present
+    open source contributions:
+      - https://github.com/elastic/rally: Elasticsearch benchmarking tool.
+    achievements:
+      - Engineered high-performance benchmarking tools for detecting performance regressions in Elasticsearch.
+      - Designed and implemented a Python-based parallel HTTP downloader using multi-threading for rapid, reliable file retrieval from multiple mirrors.
+      - Developed automated load balancing and failover mechanisms for mirror services, optimizing latency and throughput.
+      - Built custom adapters for AWS S3 and Google Cloud Storage integration using HTTP protocol.
+      - Prototyped a Rust based replacement for esrally tool for performance testing of Elasticsearch based on caputuring the network traffic and recostruct HTTP requests with precice timestamps from the Lininux kernel tracepoints.
+      - Implemented sticky fan out load balancing mechaninism for high troughput and efficent network traffic capture writing a custom Rust tool.
+      - Integrated Cursor AI LLM based IDE in the development process to improve productivity and crush learning curve for new technologies (like Rust, ethernet packed capture, etc.).
+
+  - company: Google
+    role: Senior Software Engineer, System Architect, SRE Engineer
+    location: Munich, Germany
+    period: August 2022 - December 2024
+    achievements:
+      - Move Control Plane (SRE): Developed full-stack Go/JS features for a large-scale migration tool moving services between global data centers.
+      - Gained deep expertise in Google’s internal infrastructure (Borg, Spanner, Protobuf) and high-scale load-balancing mechanisms.
+      - Trusted Partner Cloud: Architected and deployed multi-cluster Kubernetes solutions for Google Cloud instances in third-party data centers.
+      - Prototyped and implemented Ansymbe playbooks to demonstate feasibility and spot weakness of a parner solution for orchestrating Kubernates cluster inside of another K8 cluster using VirtKube as middle layer.
+      - Spot two critical realiability issues in the prototyped design and provided reccomentations to avoid single points of failures.
+      - Authored critical technical design documents and prototyped Rocky Linux-based deployment platforms using Podman and Systemd.
+      - Implemented in Go automaned update service based on container images and RPMS for baremetal nodes compatible with YUM and Systemd.
+
+  - company: Red Hat (part of IBM)
+    role: Senior Quality Engineer & Technical Lead
+    location: Spain (Remote)
+    period: November 2017 - July 2022
+    open source contributions:
+      - https://github.com/redhat-openstack/tobiko: Python testing framework for disruptive operation testing in OpenStack.
+    achievements:
+      - Founded "Tobiko," an open-source Python testing framework for disruptive operation testing in OpenStack.
+      - Led cross-team collaborations to define CI/CD strategies and mentored developers in Python and OpenStack ecosystem.
+      - Automated complex infrastructure workloads using Ansible and integrated OpenShift into CI pipelines.
+      - Wrote integration test cases for testing OpenStack network layer using lazy initialization and shared fixtures to increase test coverage with minimum overhead.
+
+  - company: Bank of America
+    role: Software Engineer & DevOps
+    location: Dublin, Ireland
+    period: November 2016 - November 2017
+    achievements:
+      - Built Groovy-based CI pipelines in Jenkins and developed reusable Make utilities for heterogeneous projects (Python, Scala, LaTeX).
+      - Developed a Scala-based web portal for artifact management and built a custom shell-based package manager.
+      - Automated LaTex based documentation generation.
+
+  - company: Intel
+    role: Senior Software Engineer / Python Instructor
+    location: Shannon, Ireland
+    period: May 2015 - November 2016
+    open source contributions:
+      - https://github.com/openstack/devstack: OpenStack development stack.
+    achievements:
+      - Developed SDN integration plugins between OpenStack and OpenDaylight.
+      - Contributed to the upstream OpenStack/DevStack community and presented at OpenStack Day Mexico City.
+      - Acted as innovation team leader mentoring and coordinating team mates innovation contributions.
+      - Conducted internal Python training sessions for engineering staff enabling silicon engineering teams to migrate tools to Python.
+
+  - company: FEI
+    role: Software Engineer (Python)
+    location: Eindhoven, Netherlands
+    period: February 2014 - January 2015
+    achievements:
+      - Refactored high-performance Windows desktop applications for electronic microscope data visualization (OpenGL, NumPy).
+      - Optimized real-time data processing and multithreaded GUI response using PySide/Qt.
+
+  - company: AMS Geomatics
+    role: Software Engineer (C++, DevOps)
+    location: Madrid, Spain
+    period: June 2013 - January 2014
+    achievements:
+      - Developed a cross-platform (Windows/Linux) 3D CAD application for property modeling.
+      - Managed build infrastructure using GNU Make and QMake, and created Java-based SVN management tools.
+
+  - company: Altran
+    role: Technical Lead / Software Engineer
+    location: Madrid, Spain
+    period: April 2012 - June 2013
+    achievements:
+      - Led the design and development of "Adept" for Airbus, a high-performance mathematical processing tool.
+      - Implemented a Python-based C++ code generator for parallelized numerical operations.
+      - Developed CFD post-processing libraries utilizing NumPy, SciPy, and VTK.
+      - Optimized mathematical expressions using Simpy for numerical stability and performance before compilation and computation.
+      - Optained up to 10x speedup in computation of operations on big NumPy arrays and matrices using OpenMP for parallel processing and memory access to minimize cache miss. 
+
+  - company: Indra
+    role: Software Engineer (Java)
+    location: Madrid, Spain
+    period: February 2011 - April 2012
+    achievements:
+      - Developed supervision agents for national air traffic control systems (SACTA).
+      - Implemented high-concurrency actor models using Java non-blocking APIs.
+      - Using atomic operations to implement a lock free data structure for high throughput data processing.
+      - Implemented hybrid hash map and skiplist for lock free sorted data insertion in memory.
+
+  - company: FADA-CATEC
+    role: Software Architect / Engineer
+    location: Seville, Spain
+    period: September 2009 - September 2010
+    achievements:
+      - Designed distributed flight simulators and video streaming applications for drones using C++/Qt and Google Maps API.
+
+  - company: Thales Computers (Kontron)
+    role: Software Engineer (C/C++, Python)
+    location: Toulon, France
+    period: July 2008 - August 2009
+    achievements:
+      - Developed embedded GUI for AWACS aircraft radio systems (PowerPC).
+      - Built middleware for diskless Linux clusters and custom RPM distributions.
+
+  - company: Indra Espacio
+    role: Software Engineer (C)
+    location: Barcelona, Spain
+    period: April 2007 - July 2008
+    achievements:
+      - Developed real-time satellite localization systems for emergency beacons (MEOSAR) using C and MySQL.
+      - Implemented geolocalization algorithm based on triangulation and frequecy shift of signals from multiple satellites.
+
+  - company: ACOM Grupo Tecnologías
+    role: Technical Lead (C++)
+    location: Barcelona, Spain
+    period: September 2006 - April 2007
+    achievements:
+      - Refactored MJPEG/MPEG4 video streaming services and led a team of 3 developers.
+
+  - company: CIEFFE S.r.l
+    role: Software Engineer (C++, Web)
+    location: Parma, Italy
+    period: January 2003 - September 2006
+    achievements:
+      - Developed real-time vector graphics engines (OpenGL/GPU shaders) for CCTV systems.
+      - Implemented optimized real time bilinar interpolation of video frames for high definition displays in C++ wth comparable performances with assembly/MMX implementations.
+      - Built a custom DNS service from scratch in C++ for dynamic IP device registration.
+      - Optimized MPEG4 decoders for ARM-based Pocket PC devices.
+
+education:
+  - institution: University of Parma
+    degree: University Diploma in Software Engineering
+    location: Parma, Italy
+    period: 1999 - 2005
+
+interests:
+  - Data Intensive Applications
+  - Technical Leadership & Mentorship
+  - Distributed Systems Architecture & Scalability
+  - Algorithm Optimization & Complex Problem Solving
+  - Artificial Intelligence & Physics Simulations
