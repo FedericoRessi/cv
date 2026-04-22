@@ -4,9 +4,9 @@ This repository holds the **source of truth** for my curriculum vitae in a struc
 
 ## Contents
 
-| File     | Role |
-|----------|------|
-| `cv.yml` | Single YAML document with contact info, summary, skills, work history, education, and interests. Easy to diff, script, or feed into other tools. |
-| `cv.md`  | Markdown version generated from the same information, suitable for GitHub, viewers, or export to PDF/HTML. |
+| File | Role |
+|------|------|
+| [cv.yaml](cv.yaml) | Single YAML document with contact info, summary, skills, work history, education, and interests. Easy to diff, script, or feed into other tools. |
+| [cv.md](cv.md) | Markdown version generated from the same information, suitable for GitHub, viewers, or export to PDF/HTML. |
 
-`cv.md` is maintained to match `cv.yml`; if you change one, update the other (or regenerate the Markdown from the YAML if you add automation later).
+[cv.md](cv.md) is maintained to match [cv.yaml](cv.yaml); if you change one, update the other (or regenerate the Markdown from the YAML if you add automation later).
