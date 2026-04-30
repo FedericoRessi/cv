@@ -1,6 +1,6 @@
 # https://github.com/FedericoRessi/cv/blob/main/CV.yaml
 # Curriculum Vitae: Federico Ressi
-# Last updated: April 2026
+# Last updated: January 2026
 
 personal_info:
   first_name: Federico
@@ -65,22 +65,22 @@ experience:
       - Designed and implemented a Python-based parallel HTTP downloader using multi-threading for rapid, reliable file retrieval from multiple mirrors.
       - Developed automated load balancing and failover mechanisms for mirror services, optimizing latency and throughput.
       - Built custom adapters for AWS S3 and Google Cloud Storage integration using HTTP protocol.
-      - Prototyped a Rust based replacement for esrally tool for performance testing of Elasticsearch based on caputuring the network traffic and reconstruct HTTP requests with precise timestamps from the Linux Kernel tracepoints.
-      - Implemented sticky fan out load balancing mechanism for high throughput and efficient network traffic capture writing a custom Rust tool.
-      - Integrated Cursor AI LLM based IDE in the development process to improve productivity and crush learning curve for new technologies (like Rust, ethernet packed capture, etc.).
+      - Prototyped a Rust-based replacement for the esrally tool for performance testing of Elasticsearch by capturing network traffic and reconstructing HTTP requests with precise timestamps from Linux kernel tracepoints.
+      - Implemented a sticky fan-out load-balancing mechanism for high-throughput and efficient network traffic capture by writing a custom Rust tool.
+      - Integrated the Cursor AI LLM-based IDE into the development process to improve productivity and shorten the learning curve for new technologies (for example Rust and Ethernet packet capture).
 
   - company: Google
-    role: Senior Software Engineer, System Architect, SRE Engineer
+    role: Software Engineer, System Architect, SRE Engineer
     location: Munich, Germany
     period: August 2022 - December 2024
     achievements:
       - Move Control Plane (SRE): Developed full-stack Go/JS features for a large-scale migration tool moving services between global data centers.
       - Gained deep expertise in Google’s internal infrastructure (Borg, Spanner, Protobuf) and high-scale load-balancing mechanisms.
       - Trusted Partner Cloud: Architected and deployed multi-cluster Kubernetes solutions for Google Cloud instances in third-party data centers.
-      - Prototyped and implemented Ansible playbooks to demonstrate feasibility and spot weakness of a partner solution for orchestrating Kubernetes cluster inside of another K8 cluster using VirtKube as middle layer.
-      - Spot two critical reliability issues in the prototyped design and provided recommendations to avoid single points of failures.
-      - Authored critical technical design documents and prototyped Rocky Linux-based deployment platforms using Podman and Systemd.
-      - Implemented in Go automated update service based on container images and RPMS for baremetal nodes compatible with YUM and Systemd.
+      - Prototyped and implemented Ansible playbooks to demonstrate feasibility and spot weaknesses in a partner solution for orchestrating a Kubernetes cluster inside another K8s cluster using VirtKube as a middle layer.
+      - Spotted two critical reliability issues in the prototyped design and provided recommendations to avoid single points of failure.
+      - Authored critical technical design documents and prototyped Rocky Linux-based deployment platforms using Podman and systemd.
+      - Implemented in Go an automated update service based on container images and RPMs for bare-metal nodes compatible with YUM and systemd.
 
   - company: Red Hat (part of IBM)
     role: Senior Quality Engineer & Technical Lead
@@ -89,10 +89,10 @@ experience:
     open source contributions:
       - https://github.com/redhat-openstack/tobiko: Python testing framework for disruptive operation testing in OpenStack.
     achievements:
-      - Founded "Tobiko," an open-source Python testing framework for disruptive operation testing in OpenStack.
-      - Led cross-team collaborations to define CI/CD strategies and mentored developers in Python and OpenStack ecosystem.
+      - Created "Tobiko," an open-source Python testing framework for disruptive operation testing in OpenStack.
+      - Led cross-team collaborations to define CI/CD strategies and mentored developers in the Python and OpenStack ecosystem.
       - Automated complex infrastructure workloads using Ansible and integrated OpenShift into CI pipelines.
-      - Wrote integration test cases for testing OpenStack network layer using lazy initialization and shared fixtures to increase test coverage with minimum overhead.
+      - Wrote integration test cases for testing the OpenStack network layer using lazy initialization and shared fixtures to increase test coverage with minimum overhead.
 
   - company: Bank of America
     role: Software Engineer & DevOps
@@ -101,26 +101,22 @@ experience:
     achievements:
       - Built Groovy-based CI pipelines in Jenkins and developed reusable Make utilities for heterogeneous projects (Python, Scala, LaTeX).
       - Developed a Scala-based web portal for artifact management and built a custom shell-based package manager.
-      - Automated LaTex based documentation generation.
 
   - company: Intel
     role: Senior Software Engineer / Python Instructor
     location: Shannon, Ireland
     period: May 2015 - November 2016
-    open source contributions:
-      - https://github.com/openstack/devstack: OpenStack development stack.
     achievements:
       - Developed SDN integration plugins between OpenStack and OpenDaylight.
       - Contributed to the upstream OpenStack/DevStack community and presented at OpenStack Day Mexico City.
-      - Acted as innovation team leader mentoring and coordinating team mates innovation contributions.
-      - Conducted internal Python training sessions for engineering staff enabling silicon engineering teams to migrate tools to Python.
+      - Conducted internal Python training sessions for engineering staff.
 
   - company: FEI
     role: Software Engineer (Python)
     location: Eindhoven, Netherlands
     period: February 2014 - January 2015
     achievements:
-      - Refactored high-performance Windows desktop applications for electronic microscope data visualization (OpenGL, NumPy).
+      - Refactored high-performance Windows desktop applications for electron microscope data visualization (OpenGL, NumPy).
       - Optimized real-time data processing and multithreaded GUI response using PySide/Qt.
 
   - company: AMS Geomatics
@@ -139,8 +135,6 @@ experience:
       - Led the design and development of "Adept" for Airbus, a high-performance mathematical processing tool.
       - Implemented a Python-based C++ code generator for parallelized numerical operations.
       - Developed CFD post-processing libraries utilizing NumPy, SciPy, and VTK.
-      - Optimized mathematical expressions using Simpy for numerical stability and performance before compilation and computation.
-      - Obtained up to 10x speedup in computation of operations on big NumPy arrays and matrices using OpenMP for parallel processing and memory access to minimize cache miss. 
 
   - company: Indra
     role: Software Engineer (Java)
@@ -149,8 +143,6 @@ experience:
     achievements:
       - Developed supervision agents for national air traffic control systems (SACTA).
       - Implemented high-concurrency actor models using Java non-blocking APIs.
-      - Using atomic operations to implement a lock free data structure for high throughput data processing.
-      - Implemented hybrid hash map and skiplist for lock free sorted data insertion in memory.
 
   - company: FADA-CATEC
     role: Software Architect / Engineer
@@ -173,7 +165,6 @@ experience:
     period: April 2007 - July 2008
     achievements:
       - Developed real-time satellite localization systems for emergency beacons (MEOSAR) using C and MySQL.
-      - Implemented geolocalization algorithm based on triangulation and frequecy shift of signals from multiple satellites.
 
   - company: ACOM Grupo Tecnologías
     role: Technical Lead (C++)
@@ -188,19 +179,17 @@ experience:
     period: January 2003 - September 2006
     achievements:
       - Developed real-time vector graphics engines (OpenGL/GPU shaders) for CCTV systems.
-      - Implemented optimized real time bilinear interpolation of video frames for high definition displays in C++ with comparable performances with assembly/MMX implementations.
       - Built a custom DNS service from scratch in C++ for dynamic IP device registration.
       - Optimized MPEG4 decoders for ARM-based Pocket PC devices.
 
 education:
   - institution: University of Parma
-    degree: University Diploma in Software Engineering
+    degree: Bachelor of Science in Software Engineering
     location: Parma, Italy
     period: 1999 - 2005
 
 interests:
-  - Data Intensive Applications
   - Technical Leadership & Mentorship
   - Distributed Systems Architecture & Scalability
-  - Algorithm Optimization & Complex Problem Solving
+  - Algorithm Optimization & Complex Problem-Solving
   - Artificial Intelligence & Physics Simulations
