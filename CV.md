@@ -40,9 +40,9 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 - Designed and implemented a Python-based parallel HTTP downloader using multi-threading for rapid, reliable file retrieval from multiple mirrors.
 - Developed automated load balancing and failover mechanisms for mirror services, optimizing latency and throughput.
 - Built custom adapters for AWS S3 and Google Cloud Storage integration using HTTP protocol.
-- Prototyped a Rust based replacement for esrally tool for performance testing of Elasticsearch based on caputuring the network traffic and recostruct HTTP requests with precice timestamps from the Lininux kernel tracepoints.
-- Implemented sticky fan out load balancing mechaninism for high troughput and efficent network traffic capture writing a custom Rust tool.
-- Integrated Cursor AI LLM based IDE in the development process to improve productivity and crush learning curve for new technologies (like Rust, ethernet packed capture, etc.).
+- Prototyped a Rust-based replacement for the esrally tool for performance testing of Elasticsearch by capturing network traffic and reconstructing HTTP requests with precise timestamps from Linux kernel tracepoints.
+- Implemented a sticky fan-out load-balancing mechanism for high-throughput and efficient network traffic capture by writing a custom Rust tool.
+- Integrated the Cursor AI LLM-based IDE into the development process to improve productivity and shorten the learning curve for new technologies (for example Rust and Ethernet packet capture).
 
 ### Google — Senior Software Engineer, System Architect, SRE Engineer
 
@@ -51,20 +51,20 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 - **Move Control Plane (SRE):** Developed full-stack Go/JS features for a large-scale migration tool moving services between global data centers.
 - Gained deep expertise in Google’s internal infrastructure (Borg, Spanner, Protobuf) and high-scale load-balancing mechanisms.
 - **Trusted Partner Cloud:** Architected and deployed multi-cluster Kubernetes solutions for Google Cloud instances in third-party data centers.
-- Prototyped and implemented Ansymbe playbooks to demonstate feasibility and spot weakness of a parner solution for orchestrating Kubernates cluster inside of another K8 cluster using VirtKube as middle layer.
-- Spot two critical realiability issues in the prototyped design and provided reccomentations to avoid single points of failures.
-- Authored critical technical design documents and prototyped Rocky Linux-based deployment platforms using Podman and Systemd.
-- Implemented in Go automaned update service based on container images and RPMS for baremetal nodes compatible with YUM and Systemd.
+- Prototyped and implemented Ansible playbooks to demonstrate feasibility and spot weaknesses in a partner solution for orchestrating a Kubernetes cluster inside another K8s cluster using VirtKube as a middle layer.
+- Spotted two critical reliability issues in the prototyped design and provided recommendations to avoid single points of failure.
+- Authored critical technical design documents and prototyped Rocky Linux-based deployment platforms using Podman and systemd.
+- Implemented in Go an automated update service based on container images and RPMs for bare-metal nodes compatible with YUM and systemd.
 
 ### Red Hat (part of IBM) — Senior Quality Engineer & Technical Lead
 
 *Spain (Remote) · Nov 2017 – Jul 2022*
 
 - **Open source:** [redhat-openstack/tobiko](https://github.com/redhat-openstack/tobiko) — Python testing framework for disruptive operation testing in OpenStack.
-- Founded "Tobiko," an open-source Python testing framework for disruptive operation testing in OpenStack.
-- Led cross-team collaborations to define CI/CD strategies and mentored developers in Python and OpenStack ecosystem.
+- Created "Tobiko," an open-source Python testing framework for disruptive operation testing in OpenStack.
+- Led cross-team collaborations to define CI/CD strategies and mentored developers in the Python and OpenStack ecosystem.
 - Automated complex infrastructure workloads using Ansible and integrated OpenShift into CI pipelines.
-- Wrote integration test cases for testing OpenStack network layer using lazy initialization and shared fixtures to increase test coverage with minimum overhead.
+- Wrote integration test cases for testing the OpenStack network layer using lazy initialization and shared fixtures to increase test coverage with minimum overhead.
 
 ### Bank of America — Software Engineer & DevOps
 
@@ -72,7 +72,7 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 
 - Built Groovy-based CI pipelines in Jenkins and developed reusable Make utilities for heterogeneous projects (Python, Scala, LaTeX).
 - Developed a Scala-based web portal for artifact management and built a custom shell-based package manager.
-- Automated LaTex based documentation generation.
+- Automated LaTeX-based documentation generation.
 
 ### Intel — Senior Software Engineer / Python Instructor
 
@@ -81,14 +81,14 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 - **Open source:** [openstack/devstack](https://github.com/openstack/devstack) — OpenStack development stack.
 - Developed SDN integration plugins between OpenStack and OpenDaylight.
 - Contributed to the upstream OpenStack/DevStack community and presented at OpenStack Day Mexico City.
-- Acted as innovation team leader mentoring and coordinating team mates innovation contributions.
-- Conducted internal Python training sessions for engineering staff enabling silicon engineering teams to migrate tools to Python.
+- Acted as an innovation team leader, mentoring and coordinating teammates' innovation contributions.
+- Conducted internal Python training sessions for engineering staff, enabling silicon engineering teams to migrate tools to Python.
 
 ### FEI — Software Engineer (Python)
 
 *Eindhoven, Netherlands · Feb 2014 – Jan 2015*
 
-- Refactored high-performance Windows desktop applications for electronic microscope data visualization (OpenGL, NumPy).
+- Refactored high-performance Windows desktop applications for electron microscope data visualization (OpenGL, NumPy).
 - Optimized real-time data processing and multithreaded GUI response using PySide/Qt.
 
 ### AMS Geomatics — Software Engineer (C++, DevOps)
@@ -105,8 +105,8 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 - Led the design and development of "Adept" for Airbus, a high-performance mathematical processing tool.
 - Implemented a Python-based C++ code generator for parallelized numerical operations.
 - Developed CFD post-processing libraries utilizing NumPy, SciPy, and VTK.
-- Optimized mathematical expressions using Simpy for numerical stability and performance before compilation and computation.
-- Optained up to 10x speedup in computation of operations on big NumPy arrays and matrices using OpenMP for parallel processing and memory access to minimize cache miss.
+- Optimized mathematical expressions using SymPy for numerical stability and performance before compilation and computation.
+- Obtained up to 10x speedup in computation of operations on large NumPy arrays and matrices using OpenMP for parallel processing and memory access patterns to minimize cache misses.
 
 ### Indra — Software Engineer (Java)
 
@@ -114,8 +114,8 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 
 - Developed supervision agents for national air traffic control systems (SACTA).
 - Implemented high-concurrency actor models using Java non-blocking APIs.
-- Using atomic operations to implement a lock free data structure for high throughput data processing.
-- Implemented hybrid hash map and skiplist for lock free sorted data insertion in memory.
+- Used atomic operations to implement a lock-free data structure for high-throughput data processing.
+- Implemented a hybrid hash map and skip list for lock-free sorted in-memory data insertion.
 
 ### FADA-CATEC — Software Architect / Engineer
 
@@ -135,7 +135,7 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 *Barcelona, Spain · Apr 2007 – Jul 2008*
 
 - Developed real-time satellite localization systems for emergency beacons (MEOSAR) using C and MySQL.
-- Implemented geolocalization algorithm based on triangulation and frequecy shift of signals from multiple satellites.
+- Implemented a geolocalization algorithm based on triangulation and frequency shift of signals from multiple satellites.
 
 ### ACOM Grupo Tecnologías — Technical Lead (C++)
 
@@ -148,7 +148,7 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 *Parma, Italy · Jan 2003 – Sep 2006*
 
 - Developed real-time vector graphics engines (OpenGL/GPU shaders) for CCTV systems.
-- Implemented optimized real time bilinar interpolation of video frames for high definition displays in C++ wth comparable performances with assembly/MMX implementations.
+- Implemented optimized real-time bilinear interpolation of video frames for high-definition displays in C++ with performance comparable to assembly/MMX implementations.
 - Built a custom DNS service from scratch in C++ for dynamic IP device registration.
 - Optimized MPEG4 decoders for ARM-based Pocket PC devices.
 
@@ -163,8 +163,8 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 
 ## Interests
 
-Data-intensive applications · Technical leadership and mentorship · Distributed systems architecture and scalability · Algorithm optimization and complex problem solving · Artificial intelligence and physics simulations
+Data-intensive applications · Technical leadership and mentorship · Distributed systems architecture and scalability · Algorithm optimization and complex problem-solving · Artificial intelligence and physics simulations
 
 ---
 
-*Source: `cv.yml` · Last updated April 2026*
+*Source: [`CV.yaml`](CV.yaml) · Last updated April 2026*
