@@ -65,8 +65,8 @@ experience:
       - Designed and implemented a Python-based parallel HTTP downloader using multi-threading for rapid, reliable file retrieval from multiple mirrors.
       - Developed automated load balancing and failover mechanisms for mirror services, optimizing latency and throughput.
       - Built custom adapters for AWS S3 and Google Cloud Storage integration using HTTP protocol.
-      - Prototyped a Rust based replacement for esrally tool for performance testing of Elasticsearch based on caputuring the network traffic and recostruct HTTP requests with precice timestamps from the Lininux kernel tracepoints.
-      - Implemented sticky fan out load balancing mechaninism for high troughput and efficent network traffic capture writing a custom Rust tool.
+      - Prototyped a Rust based replacement for esrally tool for performance testing of Elasticsearch based on caputuring the network traffic and reconstruct HTTP requests with precise timestamps from the Linux Kernel tracepoints.
+      - Implemented sticky fan out load balancing mechanism for high throughput and efficient network traffic capture writing a custom Rust tool.
       - Integrated Cursor AI LLM based IDE in the development process to improve productivity and crush learning curve for new technologies (like Rust, ethernet packed capture, etc.).
 
   - company: Google
@@ -77,10 +77,10 @@ experience:
       - Move Control Plane (SRE): Developed full-stack Go/JS features for a large-scale migration tool moving services between global data centers.
       - Gained deep expertise in Google’s internal infrastructure (Borg, Spanner, Protobuf) and high-scale load-balancing mechanisms.
       - Trusted Partner Cloud: Architected and deployed multi-cluster Kubernetes solutions for Google Cloud instances in third-party data centers.
-      - Prototyped and implemented Ansymbe playbooks to demonstate feasibility and spot weakness of a parner solution for orchestrating Kubernates cluster inside of another K8 cluster using VirtKube as middle layer.
-      - Spot two critical realiability issues in the prototyped design and provided reccomentations to avoid single points of failures.
+      - Prototyped and implemented Ansible playbooks to demonstrate feasibility and spot weakness of a partner solution for orchestrating Kubernetes cluster inside of another K8 cluster using VirtKube as middle layer.
+      - Spot two critical reliability issues in the prototyped design and provided recommendations to avoid single points of failures.
       - Authored critical technical design documents and prototyped Rocky Linux-based deployment platforms using Podman and Systemd.
-      - Implemented in Go automaned update service based on container images and RPMS for baremetal nodes compatible with YUM and Systemd.
+      - Implemented in Go automated update service based on container images and RPMS for baremetal nodes compatible with YUM and Systemd.
 
   - company: Red Hat (part of IBM)
     role: Senior Quality Engineer & Technical Lead
@@ -140,7 +140,7 @@ experience:
       - Implemented a Python-based C++ code generator for parallelized numerical operations.
       - Developed CFD post-processing libraries utilizing NumPy, SciPy, and VTK.
       - Optimized mathematical expressions using Simpy for numerical stability and performance before compilation and computation.
-      - Optained up to 10x speedup in computation of operations on big NumPy arrays and matrices using OpenMP for parallel processing and memory access to minimize cache miss. 
+      - Obtained up to 10x speedup in computation of operations on big NumPy arrays and matrices using OpenMP for parallel processing and memory access to minimize cache miss. 
 
   - company: Indra
     role: Software Engineer (Java)
@@ -188,7 +188,7 @@ experience:
     period: January 2003 - September 2006
     achievements:
       - Developed real-time vector graphics engines (OpenGL/GPU shaders) for CCTV systems.
-      - Implemented optimized real time bilinar interpolation of video frames for high definition displays in C++ wth comparable performances with assembly/MMX implementations.
+      - Implemented optimized real time bilinear interpolation of video frames for high definition displays in C++ with comparable performances with assembly/MMX implementations.
       - Built a custom DNS service from scratch in C++ for dynamic IP device registration.
       - Optimized MPEG4 decoders for ARM-based Pocket PC devices.
 
