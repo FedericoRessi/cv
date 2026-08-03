@@ -4,8 +4,8 @@
 
 **Location:** Alicante, Spain (Remote) · **Nationality:** Italian · **Date of birth:** 24 February 1979  
 **Email:** federico.ressi@gmail.com · **Phone:** +34 668 591 070  
-**LinkedIn:** [linkedin.com/in/federico-ressi](https://www.linkedin.com/in/federico-ressi)  
-**GitHub:** [https://github.com/FedericoRessi](https://github.com/FedericoRessi) · [https://github.com/fressi-elastic](https://github.com/fressi-elastic)
+**LinkedIn:** [linkedin.com/in/federico-ressi-1a082a6b](https://www.linkedin.com/in/federico-ressi-1a082a6b/)  
+**GitHub:** [github.com/FedericoRessi](https://github.com/FedericoRessi) · [github.com/fressi-elastic](https://github.com/fressi-elastic)
 
 **Languages:** Italian (native) · English (professional) · Spanish (professional)
 
