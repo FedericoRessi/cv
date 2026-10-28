@@ -1,6 +1,6 @@
 # https://github.com/FedericoRessi/cv/blob/main/CV.yaml
 # Curriculum Vitae: Federico Ressi
-# Last updated: April 30th 2026
+# Last updated: October 28th 2026
 
 personal_info:
   first_name: Federico
@@ -35,7 +35,7 @@ technical_skills:
   programming_languages:
     - { name: Python, years: 10, focus: "Backend, Scientific, Automation" }
     - { name: Go, years: 2, focus: "Microservices, SRE" }
-    - { name: C/C++, years: 6, focus: "Embedded, 3D, Performance" }
+    - { name: C/C++, years: 6, focus: "Embedded (VxWorks RTOS), 3D, Performance" }
     - { name: Bash, years: 4, focus: "Automation, Linux Admin" }
     - { name: Java, years: 1 }
   architecture_backend:
@@ -157,7 +157,7 @@ experience:
     location: Toulon, France
     period: July 2008 - August 2009
     achievements:
-      - Developed embedded GUI for AWACS aircraft radio systems (PowerPC).
+      - Developed embedded GUI for AWACS aircraft radio systems on PowerPC, running on VxWorks (RTOS).
       - Built middleware for diskless Linux clusters and custom RPM distributions.
 
   - company: Indra Espacio
@@ -165,7 +165,8 @@ experience:
     location: Barcelona, Spain
     period: April 2007 - July 2008
     achievements:
-      - Developed real-time satellite localization systems for emergency beacons (MEOSAR) using C and MySQL.
+      - Developed real-time satellite localization of emergency beacons in C and MySQL for Cospas-Sarsat MEOSAR, a search-and-rescue system that detects and locates distress beacon signals relayed through medium Earth orbit (MEO) navigation satellites, including Galileo, GPS, and GLONASS.
+      - Contributed to writing the geolocation algorithm based on triangulation and frequency shift of signals from multiple satellites.
 
   - company: ACOM Grupo Tecnologías
     role: Technical Lead (C++)
