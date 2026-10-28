@@ -19,7 +19,7 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 
 ## Skills
 
-**Programming** — Python (10y: backend, scientific, automation) · Go (2y: microservices, SRE) · C/C++ (6y: embedded, 3D, performance) · Bash (4y: automation, Linux) · Java (1y)
+**Programming** — Python (10y: backend, scientific, automation) · Go (2y: microservices, SRE) · C/C++ (6y: embedded (VxWorks RTOS), 3D, performance) · Bash (4y: automation, Linux) · Java (1y)
 
 **Architecture & backend** — Distributed microservices · REST, gRPC, JSON, Protobuf · Networking (SDN, VXLAN, TCP/IP, sockets, load balancing) · Databases (SQL, Spanner)
 
@@ -128,14 +128,15 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 *Toulon, France · Jul 2008 – Aug 2009*
 
 - Developed embedded GUI for AWACS aircraft radio systems (PowerPC).
+- Developed network switch control software under VxWorks.
 - Built middleware for diskless Linux clusters and custom RPM distributions.
 
 ### Indra Espacio — Software Engineer (C)
 
 *Barcelona, Spain · Apr 2007 – Jul 2008*
 
-- Developed real-time satellite localization systems for emergency beacons (MEOSAR) using C and MySQL.
-- Implemented a geolocalization algorithm based on triangulation and frequency shift of signals from multiple satellites.
+- Developed real-time satellite localization of emergency beacons in C and MySQL for Cospas-Sarsat MEOSAR, a search-and-rescue system that detects and locates distress beacon signals relayed through medium Earth orbit (MEO) navigation satellites, including Galileo, GPS, and GLONASS.
+- Contributed to writing the geolocation algorithm based on triangulation and frequency shift of signals from multiple satellites.
 
 ### ACOM Grupo Tecnologías — Technical Lead (C++)
 
@@ -167,4 +168,4 @@ Data-intensive applications · Technical leadership and mentorship · Distribute
 
 ---
 
-*Source: [`CV.yaml`](CV.yaml) · Last updated April 2026*
+*Source: [`CV.yaml`](CV.yaml) · Last updated October 2026*
