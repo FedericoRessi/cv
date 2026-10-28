@@ -127,7 +127,8 @@ Senior Software Engineer and Architect with over 20 years of experience across t
 
 *Toulon, France · Jul 2008 – Aug 2009*
 
-- Developed embedded GUI for AWACS aircraft radio systems on PowerPC, running on VxWorks (RTOS).
+- Developed embedded GUI for AWACS aircraft radio systems (PowerPC).
+- Developed network switch control software under VxWorks.
 - Built middleware for diskless Linux clusters and custom RPM distributions.
 
 ### Indra Espacio — Software Engineer (C)

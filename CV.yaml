@@ -157,7 +157,8 @@ experience:
     location: Toulon, France
     period: July 2008 - August 2009
     achievements:
-      - Developed embedded GUI for AWACS aircraft radio systems on PowerPC, running on VxWorks (RTOS).
+      - Developed embedded GUI for AWACS aircraft radio systems (PowerPC).
+      - Developed network switch control software under VxWorks.
       - Built middleware for diskless Linux clusters and custom RPM distributions.
 
   - company: Indra Espacio
